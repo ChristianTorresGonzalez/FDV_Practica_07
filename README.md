@@ -36,3 +36,24 @@ Para esta segunda parte de la practica, se solicita que ahora se añada una nuev
 
 - Una vez he seleccionado este objeto, automáticamente se me crean en mi escena una nueva cámara virtual, y un GameObject llamado TargetGroup. Lo único que me queda por hacer, es indicar que objetos quiero que siga la cámara dentro del nuevo GameObject que se ha creado, de resto no es necesario hacer nada mas, porque ya viene todo configurado.
 ![Alt text](/img/target.gif)
+
+
+
+## Zonas de confinamiento
+Para la tercera parte de la practica, se solicita que se creen unas zonas de confinamiento, es decir, se delimite mediante un objeto con la propiedad "Polygon Collider" cuales serán los limites por los que se podrá mover la cámara, por lo que cuando la cámara llega a este punto de la escena, el personaje podrá seguir moviéndose, pero la cámara se quedara fija, a no ser que se mueva en la dirección opuesta al limite establecido para la frontera de movimiento para la cámara. 
+- Para poder llevar esto a cabo, lo primero que tengo que hacer es crear un GameObject vacío, el cual llamare como **Boundaries** y le añadiré la propiedad Polygon Collider. Una vez añadida esta propiedad, solo queda definir dichos limites en la escena.
+
+![Alt text](/img/fronteraA.png)
+
+- Una vez definido los limites, cuando ejecutamos nuestro juego, tal y como se ve en el video, cuando el personaje se acerca al borde derecho del mapa, la cámara se queda quieta, pero cuando vuelve a moverse hacia la izquierda, la cámara recupera su movimiento.
+
+![Alt text](/img/fronteraA.gif)
+
+- Para la segunda parte de esta tarea, se debe crear una zona de confinamiento mas pequeña, pero para la cámara del personaje B, por lo que los pasos son los mismos que los anteriores, pero ahora definiremos el Polygon Collider un poco mas pequeño que el de la cámara del personaje A.
+- Para la zona de confinamiento del personaje B, lo que hare será definir los limites en el puerto, para comprobar su correcto funcionamiento.
+
+![Alt text](/img/fronteraB.png)
+
+- Tal y como se aprecia en el video, en el momento en el que la cámara llega a la frontera establecida, se queda fija en esa posición, pero el personaje sigue su movimiento por la escena.
+
+![Alt text](/img/fronteraB.gif)
