@@ -29,5 +29,9 @@ Para esta segunda parte de la practica, se solicita que ahora se añada una nuev
 - Crear una **"Cámara de objetivo múltiple"**
 ![Alt text](/img/target1.png)
 
+![Alt text](/img/target2.png)
+
+![Alt text](/img/target3.png)
+
 - Una vez he seleccionado este objeto, automáticamente se me crean en mi escena una nueva cámara virtual, y un GameObject llamado TargetGroup. Lo único que me queda por hacer, es indicar que objetos quiero que siga la cámara dentro del nuevo GameObject que se ha creado, de resto no es necesario hacer nada mas, porque ya viene todo configurado.
 ![Alt text](/img/target.gif)
