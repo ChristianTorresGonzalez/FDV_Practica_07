@@ -27,6 +27,7 @@ La primera tarea de esta practica, es la de añadir dos cámaras para seguir a d
 Para esta segunda parte de la practica, se solicita que ahora se añada una nueva cámara que permita hacer el seguimiento de varios personajes a la vez, es decir, que en todo momento estén dentro del plano de la cámara, los personajes que se le indiquen independientemente del movimiento que estén realizando. Para crear esto, es bastante sencillo: ya que Cinemachine, te da la opción de crear una cámara que haga el seguimiento de varios personajes. Para ello, si me voy al inspector, selecciono cinemachine y creo una "Target Group Camera"
 
 - Crear una **"Cámara de objetivo múltiple"**
+
 ![Alt text](/img/target1.png)
 
 ![Alt text](/img/target2.png)
