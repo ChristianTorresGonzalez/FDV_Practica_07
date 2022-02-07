@@ -61,6 +61,6 @@ Para la tercera parte de la practica, se solicita que se creen unas zonas de con
 ## Cambio de camaras
 Para este ultimo punto se solicita que se cree una herramienta que permita cambiar entre las diferentes camaras que se han ubicado en la escena. Para ello lo que he hecho ha sido crear un script que al pulsar la tecla "Espacio" se cambia la prioridad que tiene cada camara asignada de tal forma que al actualizar la prioridad, se cambia la camara principal.
 
-![Alt text](/img/camara.png)
+![Alt text](/img/cambio.png)
 
-![Alt text](/img/camara.gif)
+![Alt text](/img/cambio.gif)
